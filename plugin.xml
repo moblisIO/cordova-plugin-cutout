@@ -24,7 +24,7 @@
       </feature>
     </config-file>
 
-    <source-file src="src/android/cutout.java" target-dir="src/io/moblis/cordova/plugin/"/>
+    <source-file src="src/android/AndroidCutout.java" target-dir="src/io/moblis/cordova/plugin/"/>
   </platform>
 
 
