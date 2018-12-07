@@ -9,7 +9,7 @@ import android.content.DialogInterface;
 import android.view.View;
 import android.view.WindowInsets;
 
-public class cutout extends CordovaPlugin {
+public class AndroidCutout extends CordovaPlugin {
 
     @Override
     public boolean execute(String action, JSONArray data, CallbackContext callbackContext) throws JSONException {
