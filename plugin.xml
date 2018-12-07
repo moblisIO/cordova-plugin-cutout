@@ -10,7 +10,7 @@
     <engine name="cordova" version=">=3.4.0"/>
   </engines>
 
-  <asset src="www/.js" target="js/cutout.js"/>
+  <asset src="www/cutout.js" target="js/cutout.js"/>
 
   <js-module src="www/cutout.js" name="androidCutout">
     <clobbers target="window.plugins.android.cutout" />
