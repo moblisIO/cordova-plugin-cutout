@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        id="cordova-plugin-android-cutout" version="0.0.1">
+
+  <name>Android Cutout</name>
+
+  <description>Detect cutout (aka notch) on Android devices</description>
+
+  <engines>
+    <engine name="cordova" version=">=3.4.0"/>
+  </engines>
+
+  <asset src="www/.js" target="js/cutout.js"/>
+
+  <js-module src="www/cutout.js" name="androidCutout">
+    <clobbers target="window.plugins.android.cutout" />
+  </js-module>
+
+  <platform name="android">
+
+    <config-file target="res/xml/config.xml" parent="/*">
+      <feature name="AndroidCutout">
+        <param name="android-package" value="io.moblis.cordova.plugin.android.cutout"/>
+      </feature>
+    </config-file>
+
+    <source-file src="src/android/cutout.java" target-dir="src/io/moblis/cordova/plugin/"/>
+  </platform>
+
+
+</plugin>

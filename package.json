@@ -1,0 +1,28 @@
+{
+  "name": "cordova-plugin-android.cutout",
+  "version": "0.0.1",
+  "description": "Android cutout (a.k.a. notch) detector",
+  "cordova": {
+    "id": "cordova-plugin-android.cutout",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moblisIO/androidcutout.git"
+  },
+  "keywords": [
+    "cordova",
+    "plugin",
+    "hello",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "Moblis Admin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/moblisIO/androidcutout/issues"
+  },
+  "homepage": "https://github.com/moblisIO/androidcutout#readme"
+}
