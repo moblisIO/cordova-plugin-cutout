@@ -14,7 +14,7 @@ Install the plugin
 
     $ cd testApp
     $ cordova platform add android
-    $ cordova plugin add https://github.com/moblisIO/cordova-plugin-androidcutout.git    
+    $ cordova plugin add https://github.com/moblisIO/androidcutout.git    
 
 Edit `www/js/index.js` and add the following code inside `onDeviceReady`
 
