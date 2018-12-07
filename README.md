@@ -1,4 +1,4 @@
-# Cordova Android Notch Plugin
+# Cordova Android Cutout Plugin
 
 Detect cutout (aka notch) on Android devices.
 Returns true if cutout/notch is detected on Android device.  
@@ -14,7 +14,7 @@ Install the plugin
 
     $ cd testApp
     $ cordova platform add android
-    $ cordova plugin add https://github.com/moblisIO/cordova-plugin-androidnotch.git    
+    $ cordova plugin add https://github.com/moblisIO/cordova-plugin-androidcutout.git    
 
 Edit `www/js/index.js` and add the following code inside `onDeviceReady`
 
@@ -24,10 +24,10 @@ Edit `www/js/index.js` and add the following code inside `onDeviceReady`
     }
 
     var failure = function() {
-        alert("Error calling Android Notch Plugin");
+        alert("Error calling Android Cutout Plugin");
     }
 
-    windows.plugin.android.notch(success, failure);
+    windows.plugin.android.cutout(success, failure);
 ```
 
 Install on Android platform
