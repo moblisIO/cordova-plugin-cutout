@@ -12,8 +12,8 @@
 
   <asset src="www/cutout.js" target="js/cutout.js"/>
 
-  <js-module src="www/cutout.js" name="androidCutout">
-    <clobbers target="window.plugins.android.cutout" />
+  <js-module src="www/cutout.js" name="AndroidCutout">
+    <clobbers target="window.plugins.AndroidCutout" />
   </js-module>
 
   <platform name="android">
