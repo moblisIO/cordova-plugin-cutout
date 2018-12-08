@@ -1,31 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-        id="cordova-plugin-android-cutout" version="0.0.1">
+        id="cordova-plugin-cutout" version="1.0.0">
 
   <name>Android Cutout</name>
-
-  <description>Detect cutout (aka notch) on Android devices</description>
-
+  <description>Plugin detects if a cutout (aka notch) exists on Android device</description>
+  <author>Moblis Administrator</author>
+  <license>MIT</license> 
+  
+  <js-module src="www/cutout.js" name="Cutout">
+    <clobbers target="Cutout" />
+  </js-module>
   <engines>
     <engine name="cordova" version=">=3.4.0"/>
-  </engines>
-
-  <asset src="www/cutout.js" target="js/cutout.js"/>
-
-  <js-module src="www/cutout.js" name="AndroidCutout">
-    <clobbers target="window.plugins.AndroidCutout" />
-  </js-module>
-
+  </engines> 
+        
   <platform name="android">
-
+    <source-file src="src/io/moblis/cordova/plugins/Cutout.java" target-dir="src/io/moblis/cordova/plugins" />
     <config-file target="res/xml/config.xml" parent="/*">
-      <feature name="AndroidCutout">
-        <param name="android-package" value="io.moblis.cordova.plugin.android.cutout"/>
+      <feature name="Cutout">
+        <param name="android-package" value="io.moblis.cordova.plugin.cutout"/>
       </feature>
-    </config-file>
-
-    <source-file src="src/android/AndroidCutout.java" target-dir="src/io/moblis/cordova/plugin/"/>
+    </config-file>    
   </platform>
-
-
 </plugin>
