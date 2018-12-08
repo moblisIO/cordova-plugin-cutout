@@ -1,4 +1,10 @@
-/*global cordova, module*/
+module.exports = {
+    cutout: function (successCallback, errorCallback) {
+        cordova.exec(successCallback, errorCallback, "Cutout", "get", []);
+    }
+};
+
+/*global cordova, module
 
 var Cutout = function() {};
 
@@ -15,4 +21,4 @@ if (!window.plugins.cutout) {
 
 if (module.exports) {
   module.exports = Cutout;
-}
+}*/
