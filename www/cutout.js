@@ -1,5 +1,5 @@
 module.exports = {
-    cutout: function (successCallback, errorCallback) {
+    get: function (successCallback, errorCallback) {
         cordova.exec(successCallback, errorCallback, "Cutout", "get", []);
     }
 };
