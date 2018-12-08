@@ -19,16 +19,5 @@ public class Cutout extends CordovaPlugin {
         } else {            
             return false;
         }
-    }   
-    
-    
-    //public boolean execute(String action, JSONArray args, CallbackContext callbackContext) {
-    //    if (action.equals("get")) {
-    //        String result = Locale.getDefault().getCountry();
-    //        callbackContext.sendPluginResult(new PluginResult(PluginResult.Status.OK, result));
-    //        return true;
-    //    }
-    //    callbackContext.sendPluginResult(new PluginResult(PluginResult.Status.ERROR));
-    //    return false;
-    //}
+    }
 }
