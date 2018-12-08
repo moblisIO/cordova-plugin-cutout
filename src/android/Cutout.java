@@ -1,4 +1,4 @@
-package io.moblis.plugin;
+package io.cordova.moblis.plugin;
 
 import org.apache.cordova.*;
 import org.json.JSONArray;
