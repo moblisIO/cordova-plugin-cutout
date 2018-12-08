@@ -6,28 +6,32 @@ Note: Requires SDK target API 28+ (Pie).
 
 ## Using
 
-Create a new Cordova Project
+Create a new Cordova Project & Android Platform
 
     $ cordova create testApp com.example.testApp testApp
-    
-Install the plugin
-
     $ cd testApp
     $ cordova platform add android
+    
+Install the plugin
     $ cordova plugin add https://github.com/moblisIO/androidcutout.git    
 
 Edit `www/js/index.js` and add the following code inside `onDeviceReady`
 
-```js
-    var success = function(message) {
-        alert(message);
+```
+var success = function(hasCutout) {
+    if (hasCutout){
+        alert('has cutout');
+    }else{
+        alert('no cutout')
     }
+}
 
-    var failure = function() {
-        alert("Error calling Android Cutout Plugin");
-    }
+var failure = function(e) {
+    alert("Error calling Hello Plugin");
+}
 
-    windows.plugin.android.cutout(success, failure);
+cutout.hasCutout(success, failure);
+
 ```
 
 Install on Android platform
