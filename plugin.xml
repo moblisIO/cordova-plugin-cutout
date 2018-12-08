@@ -18,10 +18,10 @@
   </engines> 
         
   <platform name="android">
-    <source-file src="src/android/Cutout.java" target-dir="src/io/moblis/cordova/plugins" />
+    <source-file src="src/android/Cutout.java" target-dir="src/io/moblis/plugin" />
     <config-file target="res/xml/config.xml" parent="/*">
       <feature name="Cutout">
-        <param name="android-package" value="io.moblis.cordova.plugin.Cutout"/>
+        <param name="android-package" value="io.moblis.plugin.Cutout"/>
       </feature>
     </config-file>    
   </platform>
