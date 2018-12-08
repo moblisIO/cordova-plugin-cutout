@@ -7,7 +7,7 @@
   <author>Moblis Administrator</author>
   <license>MIT</license> 
   
-  <asset src="www/cutout.js" target="js/hello.js"/>
+  <asset src="www/cutout.js" target="js/cutout.js"/>
         
   <js-module src="www/cutout.js" name="cutout">
     <clobbers target="cutout" />
