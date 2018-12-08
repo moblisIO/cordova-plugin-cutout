@@ -6,7 +6,7 @@ import org.json.JSONException;
 
 import android.app.Activity;
 
-public class Cutout extends CordovaPlugin {
+public class Android extends CordovaPlugin {
 
     @Override
     public boolean execute(String action, JSONArray data, CallbackContext callbackContext) throws JSONException {
