@@ -30,7 +30,7 @@ var failure = function(e) {
     alert("Error calling Cutout Plugin");
 }
 
-cutout.hasCutout(success, failure);
+android.hasCutout(success, failure);
 
 ```
 
