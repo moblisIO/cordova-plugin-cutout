@@ -4,6 +4,10 @@ Detect cutout (aka notch) on Android devices.
 Returns true if cutout/notch is detected on Android device.  
 Note: Requires SDK target API 28+ (Pie).
 
+## Note
+
+Android Studio project structure must be set to Compile Sdk Version API 28 (Pie)+.
+
 ## Using
 
 Create a new Cordova Project & Android Platform
