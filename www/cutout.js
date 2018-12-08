@@ -1,7 +1,18 @@
 /*global cordova, module*/
 
-module.exports = {
-    cutout: function (name, successCallback, errorCallback) {
-        cordova.exec(successCallback, errorCallback, "AndroidCutout", "cutout", []);
-    }
+var Cutout = function() {};
+
+Cutout.prototype.get = function(success, fail) {
+  cordova.exec(success, fail, 'Cutout', 'get', []);
 };
+
+if (!window.plugins) {
+  window.plugins = {};
+}
+if (!window.plugins.cutout) {
+  window.plugins.cutout = new Cutout();
+}
+
+if (module.exports) {
+  module.exports = Cutout;
+}
