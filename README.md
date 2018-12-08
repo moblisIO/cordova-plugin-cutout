@@ -27,7 +27,7 @@ var success = function(hasCutout) {
 }
 
 var failure = function(e) {
-    alert("Error calling Hello Plugin");
+    alert("Error calling Cutout Plugin");
 }
 
 cutout.hasCutout(success, failure);
