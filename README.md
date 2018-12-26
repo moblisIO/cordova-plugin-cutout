@@ -17,7 +17,7 @@ Create a new Cordova Project & Android Platform
     $ cordova platform add android
     
 Install the plugin
-    $ cordova plugin add https://github.com/moblisIO/androidcutout.git    
+    $cordova plugin add https://github.com/moblisIO/androidcutout.git    
 
 Edit `www/js/index.js` and add the following code inside `onDeviceReady`
 
