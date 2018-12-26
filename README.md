@@ -12,12 +12,12 @@ Android Studio project structure must be set to Compile Sdk Version API 28 (Pie)
 
 Create a new Cordova Project & Android Platform
 
-    $ cordova create testApp com.example.testApp testApp
+    $ cordova create testApp 
     $ cd testApp
     $ cordova platform add android
     
 Install the plugin
-    $cordova plugin add https://github.com/moblisIO/androidcutout.git    
+    $ cordova plugin add https://github.com/moblisIO/androidcutout.git    
 
 Edit `www/js/index.js` and add the following code inside `onDeviceReady`
 
