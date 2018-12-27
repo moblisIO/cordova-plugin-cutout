@@ -44,7 +44,7 @@ Install on Android platform
 
 Android Studio project structure must be set to Compile Sdk Version API 28 (Pie)+.
 1. Build Cordova project on the command line first
-    a. $ cordova build android
+  1. $ cordova build android
 1. Open Android Studio
 2. Open an Existing Android Studio Project
 3. Select No if asekd to upgrade project
