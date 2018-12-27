@@ -41,12 +41,12 @@ cutout.hasCutout(success, failure);
 
 Install on Android platform
 
-    cordova platform add android
+    $ cordova platform add android
     
 Run the code
 
-    cordova run android
+    $ cordova run android
 
     or
 
-    cordova emulate android
+    $ cordova emulate android
