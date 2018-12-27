@@ -44,14 +44,14 @@ Install on Android platform
 
 Android Studio project structure must be set to Compile Sdk Version API 28 (Pie)+.
 1. Build Cordova project on the command line first
-  1. $ cordova build android
-1. Open Android Studio
-2. Open an Existing Android Studio Project
-3. Select No if asekd to upgrade project
-4. Select "app" in the Project tab
-5. Select "File/Project Structure"
-6. Select app under "Modules"
-7. Select API 28 under Compile Sdk Version
+    1. $ cordova build android
+2. Open Android Studio
+3. Open an Existing Android Studio Project
+4. Select No if asekd to upgrade project
+5. Select "app" in the Project tab
+6. Select "File/Project Structure"
+7. Select app under "Modules"
+8. Select API 28 under Compile Sdk Version
 
 
 Run the code
